@@ -20,8 +20,7 @@
 }
 
 #logoMini {
-	max-width: 10%;
-	min-width: 5%;
+	height = 80px;
 	padding: 10px;
 }
 
