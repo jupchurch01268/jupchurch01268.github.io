@@ -6,7 +6,6 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	line-height: 175px;
 	background-color: #C26868;
 	z-index: 1000;
 	margin: 0;
@@ -14,11 +13,20 @@
 
 }
 
+#footer 
+{
+	position: absolute;
+	right: 0;
+	top: 100px;
+	padding: 0;
+	text-align: right;
+}
+
 #image 
 {
-	max-width: 50%;
+	max-width: 35%;
+	margin: auto;
 	height: auto;
-	/*box-shadow: 5px 5px 20px black;*/
 }
 
 #logoMini 
@@ -30,16 +38,25 @@
 #icon 
 {
 	border-radius: 50%;
-	color: black;
+	color: #d4d4efb8;
 }
 
 #sectTitle 
 {
 	font: sans-serif;
-	text-align: right;
-	color: #C26868;
+	text-align: center;
+	color: #d4d4efb8;
 }
 
+#sectBody
+{
+	padding: 1%;
+}
+
+#link
+{
+	color: #ab8585fa;
+}
 #ulSpec 
 {
 	padding: 15px;
@@ -48,10 +65,10 @@
 body 
 {
 	background-color: #4C5364;
-	color: #e5e5e5;
+	color: #ab8585fa;
 	text-align: center;
-	margin: 20px;
-	margin-top: 175px;
+	margin: 0.5%;
+	margin-top: 8%;
 }
 
 a
@@ -61,7 +78,7 @@ a
 
 p 
 {
-	text-align: left;
+	text-align: center;
 }
 
 h1 
@@ -76,7 +93,7 @@ h4
 
 hr 
 {
-	border-color: white;
+	border-color: #d4d4ef;
 }
 
 ul 
@@ -89,15 +106,4 @@ ul
 em 
 {
 	color: white;
-}
-
-.footer 
-{
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	top: 25;
-	left: 0;
-	padding: 0;
-	text-align: right;
 }
