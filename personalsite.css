@@ -1,6 +1,7 @@
 
 
-#header {
+#header 
+{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -13,32 +14,38 @@
 
 }
 
-#image {
+#image 
+{
 	max-width: 50%;
 	height: auto;
 	/*box-shadow: 5px 5px 20px black;*/
 }
 
-#logoMini {
+#logoMini 
+{
 	height: 80px;
 	padding: 10px;
 }
 
-#icon {
+#icon 
+{
 	border-radius: 50%;
 	color: black;
 }
 
-#sectTitle {
+#sectTitle 
+{
 	font: sans-serif;
 	text-align: right;
 }
 
-#ulSpec {
+#ulSpec 
+{
 	padding: 15px;
 }
 
-body {
+body 
+{
 	background-color: #4C5364;
 	color: #fafafa;
 	text-align: center;
@@ -46,33 +53,40 @@ body {
 	margin-top: 175px;
 }
 
-a {
+a
+{
 	color: #fafafa;
 }
 
-p {
+p 
+{
 	text-align: left;
 }
 
-h1 {
+h1 
+{
 	text-align: center;
 }
 
-hr {
+hr 
+{
 	border-color: white;
 }
 
-ul {
+ul 
+{
 	text-align: left;
 	list-style-type: none;
 	padding: 0;
 }
 
-em {
+em 
+{
 	color: white;
 }
 
-.footer {
+.footer 
+{
 	position: absolute;
 	right: 0;
 	bottom: 0;
